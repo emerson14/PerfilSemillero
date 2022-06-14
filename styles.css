@@ -1,0 +1,164 @@
+:root {
+    --theme-color:#dab200;
+    --secondary-color:#ff8800;
+    --opposite-color:#ff8800;
+    --text-color:#dadada;
+    --title-color:#ffffff;
+    --white-color:#ffffff;
+    --light-bg-color:#f6f6f6;
+    --bg-color:#1c1d21ff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body,
+html {
+    background: var(--bg-color)!important;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+.d-grid {
+    display: grid;
+}
+
+.d-flex {
+    display: flex;
+    
+}
+
+button,
+input,
+select {
+    outline: none;
+    font-family: sans-serif;
+}
+
+
+
+
+a,
+a:hover {
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+iframe {
+    border: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+.heading {
+    max-width: 750px;
+}
+
+.heading h3 {
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--title-color);
+    font-weight: 600;
+}
+
+.heading p {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+.tank-bootstrap-header .dropdown-item:hover,
+.tank-bootstrap-header .dropdown-item:focus {
+    color: var(--opposite-color);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+
+
+
+.tank-bootstrap-header button.btn-search {
+    right: 0;
+    color: #fff;
+}
+
+.tank-bootstrap-header a.navbar-brand {
+    color: var(--white-color);
+    font-weight: bold;
+    font-size: 36px;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.tank-bootstrap-header a.navbar-brand span {
+    font-size: 36px;
+    color: var(--secondary-color);
+}
+
+.tank-bootstrap-header .navbar {
+    padding: 0;
+}
+
+
+
+
+
+.tank-bootstrap-header .navbar-light .navbar-nav .nav-link:hover,
+.tank-bootstrap-header .navbar-light .navbar-nav .nav-link:focus {
+    color: var(--secondary-color);
+}
+
+.tank-bootstrap-header .navbar-light .navbar-nav .nav-link{
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+
+
+
+
